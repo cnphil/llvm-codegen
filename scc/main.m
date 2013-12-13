@@ -1,18 +1,22 @@
 //
-//  main.c
+//  main.m
 //  scc
 //
 //  Created by Phil Hu on 13/12/13.
 //  Copyright (c) 2013 Phil Hu. All rights reserved.
 //
 
-#include <stdio.h>
+#import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    printf("Hello, World!\n");
+    @autoreleasepool {
+        
+        // insert code here...
+        NSLog(@"Hello, World!");
+        
+    }
     return 0;
 }
 
