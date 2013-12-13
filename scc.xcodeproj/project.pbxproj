@@ -10,6 +10,7 @@
 		4A57BE27185ACBE6006EB661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A57BE26185ACBE6006EB661 /* Foundation.framework */; };
 		4A57BE2A185ACBE6006EB661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A57BE29185ACBE6006EB661 /* main.m */; };
 		4A57BE2E185ACBE6006EB661 /* scc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A57BE2D185ACBE6006EB661 /* scc.1 */; };
+		4A57BE36185ACD4C006EB661 /* MyInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A57BE35185ACD4C006EB661 /* MyInt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4A57BE29185ACBE6006EB661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A57BE2C185ACBE6006EB661 /* scc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scc-Prefix.pch"; sourceTree = "<group>"; };
 		4A57BE2D185ACBE6006EB661 /* scc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = scc.1; sourceTree = "<group>"; };
+		4A57BE34185ACD4C006EB661 /* MyInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInt.h; sourceTree = "<group>"; };
+		4A57BE35185ACD4C006EB661 /* MyInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				4A57BE29185ACBE6006EB661 /* main.m */,
+				4A57BE34185ACD4C006EB661 /* MyInt.h */,
+				4A57BE35185ACD4C006EB661 /* MyInt.m */,
 				4A57BE2D185ACBE6006EB661 /* scc.1 */,
 				4A57BE2B185ACBE6006EB661 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A57BE2A185ACBE6006EB661 /* main.m in Sources */,
+				4A57BE36185ACD4C006EB661 /* MyInt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				4A57BE33185ACBE6006EB661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
